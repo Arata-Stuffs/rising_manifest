@@ -151,4 +151,10 @@
   <project path="vendor/rising" name="android_vendor_rising" groups="pdk-fs" remote="rising" />
   <project path="vendor/risingOTA" name="RisingOSS-devices/android_vendor_RisingOTA" remote="github" revision="fourteen" />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="rising" />
+
+  <!-- Import -->
+  <project path="device/xiaomi/surya-miuicamera" name="temporary" revision="satu" remote="skyy" />
+  <project path="device/xiaomi/surya/parts" name="temporary" revision="bagian" remote="skyy" />
+  <project path="vendor/private-keys/keys" name="temporary" revision="kunci" remote="skyy" />
+  <project path="vendor/xiaomi/surya-miuicamera" name="temporary" revision="dua" remote="skyy" />
 </manifest>
