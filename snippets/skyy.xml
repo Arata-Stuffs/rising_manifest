@@ -17,7 +17,7 @@
   <project path="vendor/xiaomi/surya" name="Arata-Stuffs/android_vendor_xiaomi_surya" remote="hinohara" />
   <project path="vendor/xiaomi/surya-miuicamera" name="HinohArata/vendor_xiaomi_surya-miuicamera" remote="hinohara" />
   <project path="kernel/xiaomi/surya" name="Shiryu-Kernel/kernel_xiaomi_surya" remote="hinohara" revision="4.14" />
-  <project path="vendor/private/keys" name="HinohArata/keys" remote="hinohara" revision="full" />
+  <project path="vendor/private-keys/keys" name="HinohArata/keys" remote="hinohara" revision="full" />
   <project path="device/xiaomi/surya/parts" name="HinohArata/parts" remote="hinohara" />
   <project path="hardware/xiaomi" name="Arata-Stuffs/android_hardware_xiaomi" remote="hinohara" revision="fourteen" />
   <project path="firmware/xiaomi/surya" name="firmware_xiaomi_surya" remote="skyy-labs" />
