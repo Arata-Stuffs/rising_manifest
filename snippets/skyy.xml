@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remote  name="hinohara"
            fetch="https://github.com"
            revision="refs/heads/qpr3"
            sync-j="4" />
+
+  <remote name="skyy-labs"
+          fetch="https://gitlab.com/HinohArata/"
+          sync-c="true"
+          sync-j="4"
+          revision="tiramisu" />
 
   <project path="device/xiaomi/surya" name="Arata-Stuffs/android_device_xiaomi_surya" remote="hinohara" revision="rising-14" />
   <project path="device/xiaomi/surya-miuicamera" name="HinohArata/device_xiaomi_surya-miuicamera" remote="hinohara" />
@@ -13,6 +20,7 @@
   <project path="vendor/private/keys" name="HinohArata/keys" remote="hinohara" revision="full" />
   <project path="device/xiaomi/surya/parts" name="HinohArata/parts" remote="hinohara" />
   <project path="hardware/xiaomi" name="Arata-Stuffs/android_hardware_xiaomi" remote="hinohara" revision="fourteen" />
+  <project path="firmware/xiaomi/surya" name="firmware_xiaomi_surya" remote="skyy-labs" />
 
   <!-- Additional Repos -->
   <project path="vendor/prebuilts/GalleryGO" name="Arata-Stuffs/vendor_prebuilts_GalleryGO" remote="hinohara" revision="main" />
