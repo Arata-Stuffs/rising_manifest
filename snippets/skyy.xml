@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="hinohara"
+           fetch="https://github.com"
+           revision="refs/heads/qpr3"
+           sync-j="4" />
+
+  <project path="device/xiaomi/surya" name="Arata-Stuffs/android_device_xiaomi_surya" remote="hinohara" revision="rising" />
+  <project path="device/xiaomi/surya-miuicamera" name="HinohArata/device_xiaomi_surya-miuicamera" remote="hinohara" />
+  <project path="vendor/xiaomi/surya" name="Arata-Stuffs/android_vendor_xiaomi_surya" remote="hinohara" />
+  <project path="vendor/xiaomi/surya-miuicamera" name="HinohArata/vendor_xiaomi_surya-miuicamera" remote="hinohara" />
+  <project path="kernel/xiaomi/surya" name="Shiryu-Kernel/kernel_xiaomi_surya" remote="hinohara" revision="4.14" />
+  <project path="vendor/private/keys" name="HinohArata/keys" remote="hinohara" revision="full" />
+  <project path="device/xiaomi/surya/parts" name="HinohArata/parts" remote="hinohara" />
+  <project path="hardware/xiaomi" name="Arata-Stuffs/android_hardware_xiaomi" remote="hinohara" revision="fourteen" />
+
+  <!-- Additional Repos -->
+  <project path="vendor/prebuilts/GalleryGO" name="Arata-Stuffs/vendor_prebuilts_GalleryGO" remote="hinohara" revision="main" />
+</manifest>
