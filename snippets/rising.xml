@@ -19,7 +19,7 @@
           sync-j="4"
           revision="refs/heads/fourteen" />
 
-  <remote name="rising"
+  <remote name="arata"
           fetch="https://github.com/Arata-Stuffs/"
           sync-c="true"
           sync-j="4"
@@ -71,7 +71,7 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
 
   <!-- Android Manifest  -->
-  <project path="android" name="rising_manifest" remote="rising" revision="5.2 />
+  <project path="android" name="rising_manifest" remote="arata" revision="5.2 />
   <project path="risingOS_changelogs" name="risingOS_changelogs" remote="rising" />
   <project path="risingOS_wiki" name="risingOS_wiki" remote="rising" />
   
